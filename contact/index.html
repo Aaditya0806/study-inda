@@ -1971,12 +1971,8 @@
 
 
 
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PN3SLNK" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 
-
+<!-- 
     <script type="text/javascript">
 
         var npf_d = 'https://applications.srmist.edu.in';
@@ -1996,7 +1992,7 @@
         trackingScript.src = "https://track.nopaperforms.com/js/track.js";
         document.body.appendChild(trackingScript);
     </script>
-    <script type="text/javascript" async="" src="https://track.nopaperforms.com/js/track.js"></script>
+    <script type="text/javascript" async="" src="https://track.nopaperforms.com/js/track.js"></script> -->
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
         style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
@@ -3939,12 +3935,7 @@
                                         data-id="3c06b2c0" data-element_type="widget"
                                         data-widget_type="html.default">
                                         <div class="elementor-widget-container">
-                                            <script>
-                                                jQuery(document).ready(function () {
-                                                    jQuery('header .elementor-search-form__container').append('<button type="submit"><i aria-hidden="true" class="fas fa-search"></i></button>')
-                                                });
 
-                                            </script>
                                         </div>
                                     </div>
                                 </div>
@@ -4590,11 +4581,11 @@ padding: 16px 0 0;
    
 
     <div class="npf_wgts" data-height="400px" data-w="0fbbf66d6cb71673425a3e7290b9e0fc"></div>
-        <script type="text/javascript"> var s=document.createElement("script"); s.type="text/javascript"; s.async=true; s.src="https://widgets.in6.nopaperforms.com/emwgts.js"; document.body.appendChild(s); </script>
+    <script type="text/javascript"> var s=document.createElement("script"); s.type="text/javascript"; s.async=true; s.src="https://widgets.in6.nopaperforms.com/emwgts.js"; document.body.appendChild(s); </script>
 
       
 </section>
-<script type="text/javascript">var s=document.createElement("script"); s.type="text/javascript"; s.async=true; s.src="https://widgets.in6.nopaperforms.com/emwgts.js"; document.body.appendChild(s); </script>
+
 
 
 
@@ -7317,7 +7308,12 @@ padding: 16px 0 0;
     </div>
 </body>
 
+<script>
+    jQuery(document).ready(function () {
+        jQuery('header .elementor-search-form__container').append('<button type="submit"><i aria-hidden="true" class="fas fa-search"></i></button>')
+    });
 
+</script>
 
 
 <script src="https://smtpjs.com/v3/smtp.js">
